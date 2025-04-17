@@ -1,48 +1,114 @@
-# Business Context
-
-Owning a vehicle is a common aspiration around the world, symbolizing independence and freedom of mobility. 
-
-In recent years, many consumers have turned to **pre-owned vehicles** for their affordability. However, there's growing concern about whether **after-sales service** from resale vendors is comparable to that of original manufacturers.
-
-**NewWheels**, a vehicle resale company, has developed an app providing a comprehensive **end-to-end service**—from listing vehicles to shipping them to customers’ doorsteps. The app also gathers **after-sales feedback** to monitor customer satisfaction.
+# Leveraging Tableau for In-Depth Analysis of Telecom Customer Churn Dynamics
 
 ---
 
-# Problem Statement
+## 📌 Background
 
-Over the past year, **NewWheels has experienced a steady decline in sales**. This downturn is attributed to **negative customer feedback and online ratings**, which have led to a consistent **drop in new customer acquisition** each quarter.
+A leading **telecommunications company** is facing a **high rate of customer churn**, significantly affecting its **revenue** and **market share**. The company offers multiple services including:
 
-In response, the **CEO** is requesting a **quarterly report** containing **key business metrics** to assess the current state of the company and guide strategic decisions.
+- Mobile
+- Landline
+- Broadband
+- Data plans
+- Roaming packages
+- Value-added services
 
----
-
-# Objective
-
-As the company’s data scientist, your responsibilities include:
-
-- **Importing** the database dump containing several relevant tables.
-- **Analyzing the data** to answer leadership’s critical questions.
-- **Creating a quarterly business report** for the CEO, featuring data-driven insights and performance indicators.
+To combat the churn, the company seeks to understand **why customers are leaving** and identify ways to **retain them effectively**.
 
 ---
 
-# Data Description
+## 🎯 Objective
 
-The dataset spans several key business areas:
+The goal of this case study is to conduct a **comprehensive churn analysis** using **Tableau**. The analysis will:
 
-### 🚗 Vehicle Data
-- Make
-- Model
-- Year
-- Price point
+- Identify patterns, trends, and causes of churn.
+- Provide **actionable insights** to help management design **targeted retention strategies**.
 
-### 👥 Customer Data
-- Geographic location
-- Payment methods
+---
 
-### 📦 Order & Shipment Data
-- Order date
-- Shipment and delivery dates
-- After-sales feedback and ratings
+## 📊 Data Collection
 
-This comprehensive dataset enables deep analysis of **sales trends**, **customer satisfaction**, and **operational efficiency**, providing actionable insights to support executive decision-making.
+The dataset includes **historical customer data** across several years and comprises:
+
+- Demographics (age, gender, location)
+- Service subscriptions
+- Usage patterns
+- Billing details
+- Churn status (churned or retained)
+
+---
+
+## 🧠 Analysis Steps
+
+### 1. Data Exploration and Preparation
+- Import the dataset into Tableau.
+- Profile the data to understand structure and key variables.
+- Clean data by handling:
+  - Missing values
+  - Outliers
+  - Inconsistencies
+- Create **calculated fields** for:
+  - Customer tenure
+  - Total spending
+  - Usage intensity
+
+---
+
+### 2. Exploratory Data Analysis (EDA)
+- Visualize **churn rate over time** to identify seasonality or trends.
+- Analyze churn by **demographics** (e.g., age, gender, region).
+- Compare **usage patterns** and **subscriptions** between churned and retained customers.
+
+---
+
+### 3. Customer Segmentation
+- Apply **clustering techniques** to group customers based on:
+  - Usage
+  - Behavior
+  - Spending
+- Visualize these segments and identify those with **high churn rates**.
+
+---
+
+### 4. Customer Journey Analysis
+- Map out a **customer journey** from onboarding to churn.
+- Identify **critical touchpoints** where churn is most likely to occur.
+
+---
+
+### 5. Interactive Dashboards
+- Build **interactive dashboards** to:
+  - Explore churn data
+  - Enable stakeholders to interact with and filter visual insights
+
+---
+
+### 6. Recommendations
+- Suggest **data-backed retention strategies**, such as:
+  - Personalized offers
+  - Targeted outreach for at-risk segments
+- Provide segment-specific action plans.
+
+---
+
+### 7. Monitoring and Reporting
+- Set up continuous **monitoring mechanisms** to track:
+  - Churn trends
+  - Strategy effectiveness
+- Automate **periodic reports** with dashboards and key performance indicators (KPIs).
+
+---
+
+## ✅ Outcome
+
+Through this Tableau-powered analysis, the company achieves:
+
+- **Deeper insights** into churn dynamics
+- Understanding of **key churn drivers**
+- Ability to implement **targeted retention initiatives**
+- Improved **customer retention**
+- **Revenue and market share growth**
+
+---
+
+> **Conclusion:** Tableau proves to be an effective tool for conducting in-depth churn analysis, allowing stakeholders to move from reactive problem-solving to proactive decision-making.
